@@ -30,9 +30,9 @@ const About = () => {
 
                     <motion.p
                         className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl"
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
+                        // initial={{ opacity: 0, y: 50 }}
+                        // whileInView={{ opacity: 1, y: 0 }}
+                        // viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.6 }}>
                         {ABOUT.content}
                     </motion.p>

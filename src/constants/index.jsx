@@ -15,6 +15,10 @@ import indian from "../assets/indian.jpeg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
+export const HomeLink = [
+  { targetId: "herosection" }
+];
+
 export const LINKS = [
   { text: "Dishes", targetId: "dishes" },
   { text: "About", targetId: "about" },
